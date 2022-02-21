@@ -9,6 +9,8 @@
 3. 2.  "predeploy": "npm run build", 
     "deploy": "gh-pages -d build"
 
-    4. hacer un git push
+4. hacer un git push
+5. npm run build
+6. npm run deploy
 
 
