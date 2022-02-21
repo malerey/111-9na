@@ -21,7 +21,7 @@ const Personajes = () => {
           <div className="card">
             <h2>{personaje.name}</h2>
             <h3>{personaje.status}</h3>
-            <img src={personaje.image} />
+            <img src={personaje.image} alt={personaje.name}/>
           </div>
           </Link>
       ))}
