@@ -9,7 +9,7 @@ O una o la otra, no se pueden hacer ambas
 3. modificar package .json:
 3. 1. "homepage": "https://NOMBRE-DE-USUARIO.github.io/NOMBRE-DEL-REPO",
 3. 2.  "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build"
+         "deploy": "gh-pages -d build"
 
 4. hacer un git push
 5. npm run build
